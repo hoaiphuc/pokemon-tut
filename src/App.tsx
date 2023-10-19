@@ -50,7 +50,7 @@ const App: React.FC = () => {
     <div className="App">
       <div className="container">
         <header className="pokemon-header">
-          Pokemon
+          Pokemon with Eim Phuc
         </header>
         <PokemonCollection pokemons={pokemon} viewDetail={viewDetail} setDetail={setDetail} />
         {!viewDetail.isOpened && (
